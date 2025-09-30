@@ -190,7 +190,7 @@ bound for the number of objects needed, based on CLI arguments. Then TigerBeetle
 that number of objects and enters the main event loop. After startup, no new objects are created.
 Therefore no dynamic memory allocation or deallocation is needed.
 
-This is different form truly static allocation of some embedded systems. TigerBeetle doesn't use
+This is different from truly static allocation of some embedded systems. TigerBeetle doesn't use
 global statics (`.bss` section) for allocation and memory usage depends on the runtime CLI arguments.
 
 This is also different from arena allocation. Some systems allocate a fixed-sized arena at the start
